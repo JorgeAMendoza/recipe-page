@@ -1,6 +1,15 @@
 @font-face {
-  font-family: Nunito;
-  src: url('../assets/fonts/Nunito-VariableFont_wght.ttf');
-  font-weight: 400 500;
+  font-family: Outfit;
+  src: url('../assets/fonts/outfit/Outfit-VariableFont_wght.ttf')
+    format('ttf-variations');
+  font-weight: 400 600 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Young Serif';
+  src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf')
+    format('opentype');
+  font-weight: 400;
   font-style: normal;
 }

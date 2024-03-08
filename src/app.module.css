@@ -2,4 +2,12 @@
   background-color: #fff;
   margin-inline: auto;
   width: min(100%, 73.6rem);
+
+  & picture img {
+    min-height: 17.1rem;
+  }
+
+  section {
+    padding: 2em;
+  }
 }

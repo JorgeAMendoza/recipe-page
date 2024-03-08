@@ -1,6 +1,6 @@
 import recipeData from '@/assets/omellete.json'
-import omletteImageDesktop from '@/assets/images/image-omelette.jpeg?w=300&format=webp&imagetools'
-import omletteImageMobile from '@/assets/images/image-omelette.jpeg?w=150&format=webp&imagetools'
+import omletteImageDesktop from '@/assets/images/image-omelette.jpeg?w=800&format=webp&imagetools'
+import omletteImageMobile from '@/assets/images/image-omelette.jpeg?w=500&format=webp&imagetools'
 import style from './app.module.css'
 
 function App() {
@@ -14,33 +14,35 @@ function App() {
         />
         <img src={omletteImageMobile} alt="Omelette" />
       </picture>
-      <h1>Simple Omellete Recipe</h1>
-      <p>
-        An easy and quick dish, perfect for any meal. This classic omelette
-        combines beaten eggs cooked to perfection, optionally filled with your
-        choice of cheese, vegetables, or meats.
-      </p>
+      <section>
+        <h1>Simple Omellete Recipe</h1>
+        <p>
+          An easy and quick dish, perfect for any meal. This classic omelette
+          combines beaten eggs cooked to perfection, optionally filled with your
+          choice of cheese, vegetables, or meats.
+        </p>
 
-      <div>
-        <p>Preparation time</p>
-        <ul>
-          <li>
-            <p>
-              <strong>Total: </strong>Approximately 10 minutes
-            </p>
-          </li>
-          <li>
-            <p>
-              <strong>Preparation: </strong>5 minutes
-            </p>
-          </li>
-          <li>
-            <p>
-              <strong>Cooking: </strong>5 minutes
-            </p>
-          </li>
-        </ul>
-      </div>
+        <div>
+          <p>Preparation time</p>
+          <ul>
+            <li>
+              <p>
+                <strong>Total: </strong>Approximately 10 minutes
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Preparation: </strong>5 minutes
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Cooking: </strong>5 minutes
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
 
       <section aria-label="ingredients for the simple omlette recipe">
         <h2>Ingredients</h2>
