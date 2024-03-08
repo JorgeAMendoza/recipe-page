@@ -1,10 +1,9 @@
 :root {
-  color-scheme: light dark;
-
-  --primary: #feb712;
-  --secondary: #232323;
-  --background-color: #141414;
-  --light-text: #fff;
+  --brandy-red: #854632;
+  --dark-raspberry: #7a284e;
+  --wenge-brown: #5f564d;
+  --eggshell: #f3e5d7;
+  --dark-charcoal: #312e2c;
 }
 
 html {
@@ -20,9 +19,8 @@ html {
 }
 
 body {
-  background-color: var(--background-color);
-  color: var(--primary);
-  font-family: Nunito, sans-serif;
+  background-color: var(--eggshell);
+  color: var(--wenge-brown);
   line-height: 1.5;
   font-size: 1.6rem;
   position: relative;
@@ -52,6 +50,14 @@ select {
 ul,
 ol {
   list-style: none;
+}
+
+h1 {
+  color: var(--dark-charcoal);
+}
+
+h2 {
+  color: var(--dark-raspberry);
 }
 
 p,
