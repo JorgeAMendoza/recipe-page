@@ -73,15 +73,24 @@ function App() {
           </ol>
         </section>
 
-        <section aria-label="nutrition of the simple omlette recipe">
+        <section
+          aria-label="nutrition of the simple omlette recipe"
+          className={style.nutrition}
+        >
           <h2>Nutrition</h2>
+          <p>
+            The table below shows nutritional values per serving without the
+            additional fillings.
+          </p>
           <table>
-            {Object.entries(recipeData.nutrition).map(([key, value]) => (
-              <tr key={key}>
-                <td>{key}</td>
-                <td>{value}</td>
-              </tr>
-            ))}
+            <tbody>
+              {Object.entries(recipeData.nutrition).map(([key, value]) => (
+                <tr key={key}>
+                  <td>{key}</td>
+                  <td>{value}</td>
+                </tr>
+              ))}
+            </tbody>
           </table>
         </section>
       </div>
