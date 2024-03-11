@@ -27,6 +27,12 @@ body {
   line-height: 1.5;
   font-size: 1.6rem;
   position: relative;
+
+  @media screen and (width >= 48rem) {
+    & {
+      padding-block: 12.4rem;
+    }
+  }
 }
 
 img,

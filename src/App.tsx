@@ -10,7 +10,7 @@ function App() {
         <source
           srcSet={omletteImageDesktop}
           type="image/webp"
-          media="(width >= 768px)"
+          media="(width >= 48rem)"
         />
         <img src={omletteImageMobile} alt="Omelette" />
       </picture>
